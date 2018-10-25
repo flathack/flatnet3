@@ -1123,16 +1123,6 @@ input[type=radio]:not(old):checked + label > span > span {
 .newFahrt #absenden {
     margin-top: 20px;
 }
-.newCharWIDE {
-    border: 1px solid grey;
-    margin-bottom: 10px;
-    box-shadow: 0px 0px 5px black;
-    padding: 10px;
-    margin-top: 10px;
-    background: white;
-    color: black;
-    position: relative;
-}
 
 .publicInfo #plus {
 	background-color: #ffb9b9;
@@ -1158,20 +1148,7 @@ input[type=radio]:not(old):checked + label > span > span {
 	padding: 3px;
 	margin-bottom: 10px;
 }
-.newChar {
-    border: 1px solid grey;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    box-shadow: 0px 0px 5px black;
-    width: 700px;
-    padding: 10px;
-    background: white;
-    color: black;
-    position: relative;
-}
-.newChar select,
-.newCharWIDE select,
+
 .newFahrt select {
     padding: 3px;
     width: 211px;
@@ -1180,26 +1157,16 @@ input[type=radio]:not(old):checked + label > span > span {
     border: 1px solid #808080;
     font-family: cursive;
 }
-.newChar input[type=text],
-.newChar input[type=number],
-.newChar input[type=date],
-.newChar input[type=password],
 .newFahrt input[type=text],
 .newFahrt input[type=number],
 .newFahrt input[type=date],
-.newFahrt input[type=password],
-.newCharWIDE input[type=text],
-.newCharWIDE input[type=number],
-.newCharWIDE input[type=date],
-.newCharWIDE input[type=password] {
+.newFahrt input[type=password] {
     background: #ebebeb;
     color: black;
     border: 1px solid #808080;
     width: 200px;
     font-family: cursive;
 }
-.newChar textarea,
-.newCharWIDE textarea,
 .newFahrt textarea {
     padding: 10px;
     margin-top: 15px;
